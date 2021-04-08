@@ -20,31 +20,25 @@ html {
 .table:hover {
     color: var(--semi-dark);
 } 
-.table tbody .content-cell {
-    
-}
-.table tbody td {
-    border: 1px solid gray;
+.table tbody .course {
+    background: #fff;
     transition: all 0.5s ease-out;
-} 
-.table tbody td:hover {
-    background-color: #fff;
+    border-radius: 0;
+    text-decoration: none;
+}
+.table tbody .course:hover {
+    border: none;
     transform: scale(1.2);
 }
-.table .btn-emergency {
-    
-    
-    color: var(--dark);
-    text-decoration: none;
-    
+.table tbody .cn-2:hover {
+    background: rgb(207, 226, 243);
 }
-.table .btn-emergency:hover {
-    color: var(--semi-dark);
+.table tbody .we:hover {
+    background: rgb(252, 229, 205);
 }
-.table .btn {
-    color: #fff;
-    text-decoration: none;
+.table tbody .ea:hover {
+    background: rgb(244, 204, 204);
 }
-.table .btn:hover {
-    color: var(--semi-dark);
+.table tbody .cim:hover {
+    background: rgb(217, 234, 211);
 }
