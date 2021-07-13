@@ -28,7 +28,7 @@ body {
     box-shadow: 0px 8px 32px 0px rgba(255, 255, 255, 0.9);
 }
 img {
-    width: 100%;
+    width: 50%;
 }
 .table tbody {
     background: #ccc;
@@ -49,6 +49,8 @@ img {
     border-radius: 10px;
 }
 .course a {
+    position: relative;
+    width: 100%;
     text-decoration: none;
     color: #000;
     font-weight: bold;
