@@ -28,14 +28,17 @@ body {
 img {
     width: 25%;
 }
+.table {
+    box-shadow: 0px 0px 20px 1px #fff;
+}
 .table tbody {
-    background: #ccc;
+    background: #b40620d5;
 }
 .table thead {
-    background: #ccc;
+    background: #ffffffa1;
 }
 .table tbody .course {
-    background: #ccc;
+    background: rgba(0, 31, 74, 0.7);
     transition: all 0.5s linear;
 }
 .table tbody .course:hover {
@@ -49,7 +52,7 @@ img {
 .course a {
     width: 100%;
     text-decoration: none;
-    color: #000;
+    color: #fff;
     font-weight: bold;
 }
 .course a:hover {
